@@ -1,4 +1,4 @@
-# PlayGrid Project
+# Plagrid
 
 PlayGrid is a Python-based web application that offers various functionalities related to video and audio processing. It leverages popular libraries such as Flask, MoviePy, AssemblyAI, IMDbPY, Selenium, and more. Below, you will find an overview of the main features and how to run the application.
 
