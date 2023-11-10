@@ -37,7 +37,7 @@ nltk.download('punkt')
 # Your API
 
 
-aai.settings.api_key = "b7102fe722b24bb3beba4a56090fc680"
+aai.settings.api_key = <YOUR_API_KEY>
 transcriber = aai.Transcriber()
 english_subtitle_urls = []
 english_downloads = []
@@ -358,7 +358,8 @@ def videoscrapper():
         search = ia.search_movie(names)
         for i in range(len(search)):
             movie_id = search[i].movieID
-            print(search[i]['title'] + " : " + movie_id)     
+            print(search[i]['title'] + " : " + movie_id)    
+            #URL DOESNT WORK WEBSITE WAS TAKEN DOWN DUE TO INTERNATIONAL LAWS
             url = "https://www.2embed.to/embed/imdb/movie?id={}".format(movie_id)
             response = requests.get(url)
             webbrowser.open(url)
