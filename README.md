@@ -72,3 +72,8 @@ To run the PlayGrid application, follow these steps:
    - Enter the movie name in the "Movie Name" field under "Web Scraping for Subtitles."
    - Click the "Search Subtitles" button.
    - The application will attempt to fetch the English subtitles for the movie and open the download link in a web browser.
+6. **Fixes and Things that do not work**:
+   - The link that scrapes the URL no longer exists
+   - To increase the speed of computation, change the number of frames.
+   - The model uses simple cosine similarity and thus a newer efficient method can be used
+   - Creating a signature of the original video is yet to be implemented
