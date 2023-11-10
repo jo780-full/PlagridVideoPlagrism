@@ -11,8 +11,8 @@ def calculate_similarity(video_path_1, video_path_2):
     video_clip_2 = cv2.VideoCapture(video_path_2)
 
     # Extract frames and calculate feature vectors using ResNet50
-    features_1 = extract_features(video_clip_1, frame_skip=5)  # Extract every 5th frame
-    features_2 = extract_features(video_clip_2, frame_skip=5)
+    features_1 = extract_features(video_clip_1, frame_skip=20)  # Extract every 5th frame for accuracy but takes to long to run
+    features_2 = extract_features(video_clip_2, frame_skip=20)
 
     # Calculate similarity score
     similarity_score = calculate_cosine_similarity(features_1, features_2)
